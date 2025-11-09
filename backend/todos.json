@@ -1,0 +1,14 @@
+[
+  {
+    "id": "6096d331-475c-48a5-9d46-21314f61036d",
+    "userId": "823ddf7b-3619-431b-89b0-b6113000fdc1",
+    "text": "make a todo app",
+    "completed": true
+  },
+  {
+    "id": "c405d086-3c26-45b2-9417-4b74c07e645f",
+    "userId": "823ddf7b-3619-431b-89b0-b6113000fdc1",
+    "text": "submit todo app",
+    "completed": false
+  }
+]

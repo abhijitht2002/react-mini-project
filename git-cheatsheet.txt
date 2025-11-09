@@ -1,0 +1,48 @@
+#init repo
+git init
+
+#Add files to staging area
+git add <file_name> or git add .
+
+#Commit changes
+git commit -m "commit message"
+
+#View Changes
+git status
+
+#Find Branch
+git branch
+
+#Create Branch
+git checkout -b <branch_name>
+
+#Switch Branch
+git checkout <branch_name>
+
+#Merge Branch
+git merge <branch_name>
+
+#Delete Branch
+git branch -d <branch_name>
+
+#List Remote Repositories
+git remote -v
+
+#Get Latest Changes from Remote
+git fetch
+
+#Pull Latest Changes from Remote and Merge
+git pull
+
+#Push Local Changes to Remote
+git push origin <branch_name>
+
+#Clone Remote Repository
+git clone <repository_url>
+
+#View Commit History
+git log
+
+#View Changes
+git status
+

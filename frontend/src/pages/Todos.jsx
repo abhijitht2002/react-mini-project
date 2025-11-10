@@ -67,18 +67,17 @@ function Todos() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-950 text-white p-6">
-      <div className="w-full max-w-2xl bg-gray-900 rounded-2xl shadow-xl p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 md:bg-gray-950 text-white p-0 md:p-6">
+      <div className="w-full md:max-w-2xl bg-gray-900 rounded-none md:rounded-2xl md:shadow-xl p-6">
         <h1 className="text-2xl font-bold mb-2">📝 {userName}’s Todos</h1>
         <p className="text-gray-400 mb-4">
           {todos.length === 0
             ? `hey ${userName}, seems like you have no tasks for the moment. Add a task to get started!`
             : completedCount === todos.length
             ? `Congrats, ${userName}! you have completed all the tasks! 🎉`
-            : `welcome back, ${userName}! You have ${todos.length - completedCount} tasks left.`}
-
-          {/* Welcome back, {userName}! You have {todos.length - completedCount}{" "}
-          tasks left. */}
+            : `welcome back, ${userName}! You have ${
+                todos.length - completedCount
+              } tasks left.`}
         </p>
 
         <form onSubmit={handleTodoAdd} className="mb-6">
